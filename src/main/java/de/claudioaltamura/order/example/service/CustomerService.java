@@ -27,8 +27,6 @@ public class CustomerService {
     }
 
     public Customer add(Customer customer) {
-        customerRepository.findByName(customer.getName()).stream().f.map(c->customerRepository.save(c)).
-
         List<Customer> existingCustomers = customerRepository.findByName(customer.getName());
 
         if(!existingCustomers.isEmpty()) {
