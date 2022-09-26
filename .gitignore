@@ -12,3 +12,5 @@ buildNumber.properties
 /.idea/
 /pom.xml
 /order-example.iml
+.settings/org.eclipse.m2e.core.prefs
+.project
